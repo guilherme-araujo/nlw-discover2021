@@ -1,0 +1,18 @@
+{
+  "name": "nlw-discover2021",
+  "version": "1.0.0",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": "https://github.com/guilherme-araujo/nlw-discover2021.git",
+  "author": "Guilherme Araújo <guilherme.araujo@imd.ufrn.br>",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
