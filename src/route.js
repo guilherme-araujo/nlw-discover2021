@@ -16,8 +16,8 @@ route.get("/create-pass", (req, res) => {
   res.render("index", { page: "create-pass" });
 });
 
-route.post("/room/:room/:question/:action", QuestionController.index);
+route.post("/question/:room/:question/:action", QuestionController.index);
 
-route.post("/room/create-room", RoomController.create);
+route.post("/create-room", RoomController.create);
 
 module.exports = route;
